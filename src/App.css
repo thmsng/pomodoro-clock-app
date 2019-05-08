@@ -1,0 +1,73 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+button{
+  cursor: pointer;
+  background-color: lightyellow;
+  outline: none;
+  padding: 8px;
+  border: 2px solid silver;
+  border-radius: 30px;
+  transform: translateY(-5px);
+  transition: 0.5s ease-in-out;
+}
+
+button:hover{
+  background-color: yellow;
+  border: 2px solid yellow;
+}
+
+#containter{
+  margin: auto;
+  height: 100vh;
+  width: 100%;
+  background-color: lightgreen;
+  text-align: center;
+  font-size: 30px;
+}
+
+#pomo-title{
+  color: orange;
+  padding-top: 5vh;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.input-box{
+  max-width: 50%;
+  display: inline-block;
+  margin: 20px;
+}
+
+.input{
+  display: inline-block;
+  margin: 5px;
+}
+
+.clock{
+  border: 10px solid brown;
+  background-color: white;
+  border-radius: 50%;
+  width: 50%;
+  height: 25%;
+  margin: auto;
+  font-size: 40px;
+  color: grey;
+}
+
+#time-left{
+  font-size: 60px;
+  font-weight: bold;
+  color: blue;
+}
+
+#start-stop, #reset {
+  margin: 20px;
+}
+
+#time-left .red-text{
+  color: red;
+}
